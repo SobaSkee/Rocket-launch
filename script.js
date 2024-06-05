@@ -1,6 +1,4 @@
 function beginLaunch() {
-    // remove the launch container
-    document.querySelector('.container').removeChild(document.querySelector('.container #launch'));
-
+    // redirect to launch page
     window.location.href = 'launch.html';
 }
